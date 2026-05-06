@@ -2,44 +2,53 @@
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
-<title>Ultra Dark</title>
+<title>Ultra Dark Pro</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<div class="bg-glow"></div>
+<div class="bg"></div>
 
-<header class="glass">
-    <h2>Ultra Dark</h2>
-    <button class="glow-btn" id="uploadBtn">Upload</button>
-    <input type="file" id="fileInput" hidden>
+<header class="glass nav">
+    <h2>ULTRA</h2>
+    <div>
+        <button class="btn">Главная</button>
+        <button class="btn">Галерея</button>
+        <button class="btn glow">Начать</button>
+    </div>
 </header>
 
+<!-- HERO -->
 <section class="hero">
-    <h1>Тёмная эстетика</h1>
-    <p>Минимализм. Стекло. Глубина.</p>
+    <h1>Будущее дизайна</h1>
+    <p>Темно. Глубоко. Плавно.</p>
+    <button class="big-btn">Смотреть</button>
 </section>
 
-<section class="gallery" id="gallery">
-
-    <!-- Демо карточки -->
-    <div class="card">
-        <img src="https://picsum.photos/400/300?1">
-    </div>
-
-    <div class="card">
-        <img src="https://picsum.photos/400/300?2">
-    </div>
-
-    <div class="card">
-        <img src="https://picsum.photos/400/300?3">
-    </div>
-
-    <div class="card">
-        <img src="https://picsum.photos/400/300?4">
-    </div>
-
+<!-- FEATURES -->
+<section class="features">
+    <div class="feature glass tilt">⚡ Быстро</div>
+    <div class="feature glass tilt">🧊 Стекло</div>
+    <div class="feature glass tilt">🌌 Атмосфера</div>
 </section>
+
+<!-- GALLERY -->
+<section class="gallery">
+    <div class="card tilt"><img src="https://picsum.photos/400/300?1"></div>
+    <div class="card tilt"><img src="https://picsum.photos/400/300?2"></div>
+    <div class="card tilt"><img src="https://picsum.photos/400/300?3"></div>
+    <div class="card tilt"><img src="https://picsum.photos/400/300?4"></div>
+</section>
+
+<!-- EXTRA SECTION -->
+<section class="cta">
+    <h2>Создай свой стиль</h2>
+    <button class="big-btn glow">Попробовать</button>
+</section>
+
+<footer>
+    <p>© Nuray's Site.</p>
+</footer>
 
 <script src="script.js"></script>
 </body>
