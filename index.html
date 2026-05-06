@@ -1,15 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Тренировочный сайт</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Ultra Dark Gallery</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Тренировочный сайт</p>
-    
-    <button type="button">button1</button>
-    
-    <button class="button1">button1</button>
+
+<div class="preloader"></div>
+
+<div class="background"></div>
+
+<header class="glass">
+    <h1>Gallery</h1>
+    <div class="controls">
+        <button class="glow-btn" id="uploadBtn">Upload</button>
+        <input type="file" id="fileInput" hidden>
+    </div>
+</header>
+
+<section class="drop-zone" id="dropZone">
+    Перетащи фото сюда
+</section>
+
+<section class="gallery" id="gallery"></section>
+
+<!-- Модалка -->
+<div class="modal" id="modal">
+    <img id="modalImg">
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
