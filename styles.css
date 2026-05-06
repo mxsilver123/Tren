@@ -1,6 +1,9 @@
-{
-.button1
-flexbox: center;
-heigh: 30px;
-width: 100px;
+.button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 50px;
 background-color: black;
+  color: white;
+border: 50px
