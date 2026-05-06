@@ -1,34 +1,45 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Ultra Dark Gallery</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<title>Ultra Dark</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<div class="preloader"></div>
-
-<div class="background"></div>
+<div class="bg-glow"></div>
 
 <header class="glass">
-    <h1>Gallery</h1>
-    <div class="controls">
-        <button class="glow-btn" id="uploadBtn">Upload</button>
-        <input type="file" id="fileInput" hidden>
-    </div>
+    <h2>Ultra Dark</h2>
+    <button class="glow-btn" id="uploadBtn">Upload</button>
+    <input type="file" id="fileInput" hidden>
 </header>
 
-<section class="drop-zone" id="dropZone">
-    Перетащи фото сюда
+<section class="hero">
+    <h1>Тёмная эстетика</h1>
+    <p>Минимализм. Стекло. Глубина.</p>
 </section>
 
-<section class="gallery" id="gallery"></section>
+<section class="gallery" id="gallery">
 
-<!-- Модалка -->
-<div class="modal" id="modal">
-    <img id="modalImg">
-</div>
+    <!-- Демо карточки -->
+    <div class="card">
+        <img src="https://picsum.photos/400/300?1">
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/400/300?2">
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/400/300?3">
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/400/300?4">
+    </div>
+
+</section>
 
 <script src="script.js"></script>
 </body>
